@@ -13,11 +13,12 @@ def merge_notebooks(filenames):
             print(f"An error occurred while reading {fname}: {e}")
     return merged
 
-notebooks_to_merge = ["scraper.ipynb", "preprocess.ipynb", "distributions_outliers.ipynb", "top10.ipynb", "tests.ipynb"]
+notebooks_to_merge = ["scraper.ipynb", "preprocess.ipynb", "distributions_outliers.ipynb", "top10.ipynb",
+                      "corr_groupbar_sold_history.ipynb", "tests.ipynb"]
 merged_notebook = merge_notebooks(notebooks_to_merge)
 
 try:
-    with open("merged_notebook.ipynb", "w", encoding='utf-8') as f:
+    with open("main_project_phase1.ipynb", "w", encoding='utf-8') as f:
         nbf.write(merged_notebook, f)
     print("Notebooks merged successfully into 'merged_notebook.ipynb'.")
 except Exception as e:
