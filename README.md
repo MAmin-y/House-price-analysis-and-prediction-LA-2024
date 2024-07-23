@@ -1,4 +1,4 @@
-# Data Analysis of the Sold Houses Los Angeles 2024 From Zillow
+# Predicting House Prices in Los Angeles: A Data Science Project Using Zillow Data
 
 This is our final project of the Data Science Course at University of Tehran in spring 2024. In this project, we took all the steps of a data science project from data collection to data visualization and modeling.
 
