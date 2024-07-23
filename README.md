@@ -68,3 +68,9 @@ In the end, we concluded that the best model for this task was `SVR` and `Neural
 
 This directory contains all variations of the data that we collected and used in this project.
 
+## Contributors
+
+- [Mohammad Amin Yousefi](https://github.com/MAmin-y)
+- [Mina Shirazi](https://github.com/meenashrz)
+- [Ali Hamzehpour](https://github.com/AliHamzeh2002)
+
